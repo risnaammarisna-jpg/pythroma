@@ -19,9 +19,9 @@ elif menu_pilihan == 3:
     jari = float(input("Masukkan jari-jari lingkaran: "))
     hasil = rumus.hitung_luas(menu_pilihan, jari)
 elif menu_pilihan == 4:
-    diagonal1   = float(input("Masukkan diagonal 1 belah ketupat: "))
-    diagonal2   = float(input("Masukkan diagonal 2 belah ketupat: "))
-    hasil       = rumus.hitung_luas(menu_pilihan, diagonal1, diagonal2)
+    diagonal1 = float(input("Masukkan diagonal 1 belah ketupat: "))
+    diagonal2 = float(input("Masukkan diagonal 2 belah ketupat: "))
+    hasil = rumus.hitung_luas(menu_pilihan, diagonal1, diagonal2)
 else:
     print("Menu tidak valid")
 
